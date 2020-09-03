@@ -24,6 +24,13 @@ Send a request with curl:
 curl -X POST http://localhost:8080/predictions/posenet/ -T example.jpg
 ```
 
+## Running Client
+1. Install python packages from [here](client/requirements.txt)
+2. Run the client
+    ```bash
+    $ python client/cli.py
+    ```
+
 ## Note
 This repository is not for production use for sure!!!. Please read it [on medium](https://medium.com/@bedilbek/serve-human-pose-on-mms-44fcb5239ea0) to learn more about this repository.
 
