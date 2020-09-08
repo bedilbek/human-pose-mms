@@ -214,3 +214,8 @@ dmypy.json
 cython_debug/
 
 *.mar
+
+/.idea
+
+# docker container runtime configurations created after volume mapping
+/hsperfdata_model-server
